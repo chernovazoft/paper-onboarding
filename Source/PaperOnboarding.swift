@@ -81,9 +81,9 @@ public class PaperOnboarding: UIView {
   
   private var itemsInfo: [OnboardingItemInfo]?
   
-  var pageViewBottomConstant: CGFloat = 32
-  var pageViewSelectedRadius: CGFloat = 22
-  var pageViewRadius: CGFloat         = 8
+  public var pageViewBottomConstant: CGFloat = 32
+  public var pageViewSelectedRadius: CGFloat = 22
+  public var pageViewRadius: CGFloat         = 8
   
   private var fillAnimationView: FillAnimationView?
   private var pageView: PageView?
